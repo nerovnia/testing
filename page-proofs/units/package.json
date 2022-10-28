@@ -1,0 +1,15 @@
+{
+  "name": "units",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass scss/style.scss css/style.css"
+  },
+  "author": "Volodymyr Nerovnia <nerv@i.ua>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.52.1"
+  }
+}
