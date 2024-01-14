@@ -10,9 +10,7 @@ const sort = (arr) => {
       changed = true;
     }
   }
-  if (changed) {
-    sort(arr);
-  }
+  if (changed) sort(arr);
   return [...arr]
 }
 
