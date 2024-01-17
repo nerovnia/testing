@@ -1,40 +1,31 @@
 const { getrandarr } = require("./getrandarr.js");
-const arr1 = getrandarr(100, 5, 80);
+const arr1 = getrandarr(100, 15, 800);
 
 const sort = (arr) => {
   const resarr = [...arr];
-  let changed = false;
+  let changed = true;
   let i = 0;
   let znak = true;
   while (true) {
-    if (i < 0) {
-      i = arr.length -2;
-      znak = false;
+    if (i < 1) {
+      znak = true;
       if (!changed) break;
       changed = false;
     }
-    if (i > arr.length - 2) {
-      i = 0;
-      znak = false;
+    if (i > resarr.length - 2) {
+        znak = false;
       if (!changed) break;
       changed = false;
     }
-    if(znak = true) {
-      i++
-    } else {
-      i--;
-    }
-    if (arr[i] > arr1[i] + 1) {
-      arr[i] += arr[i + 1];
-      arr[i + 1] += arr[i] - arr[i + 1];
-      arr[i] = arr[i] - arr[i + 1];
+    (znak) ? i++ : i--;
+    if (resarr[i] > resarr[i + 1]) {
+      resarr[i + 1] += resarr[i];
+      resarr[i] = resarr[i + 1] - resarr[i];
+      resarr[i + 1] = resarr[i + 1] - resarr[i];
       changed = true;
     }
   }
   return [...resarr]; 
 }
 
-
-
-console.log(arr1);
 console.log(sort(arr1));
