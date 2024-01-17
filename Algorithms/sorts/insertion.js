@@ -1,3 +1,5 @@
+'use strict'
+
 let arr1 = [51, 28, 52, 42, 31, 18, 77, 28, 58, 62, 81, 46, 53, 34, 72, 38, 33, 36, 39, 94, 69];
 
 const setInRightPlace = (arr, value) => {

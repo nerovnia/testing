@@ -1,3 +1,5 @@
+'use strict'
+
 const getrandarr = (arrlength, minvalue, maxvalue) => {
   const resarr = [];
   for (let i = 0; i < arrlength; i++) {
