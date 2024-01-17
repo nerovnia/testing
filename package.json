@@ -1,0 +1,22 @@
+{
+  "name": "testing",
+  "version": "0.0.1",
+  "description": "Testing tasks - t1 Plus Minus",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerovnia/testing.git"
+  },
+  "author": "Volodymyr Nerovnia <nerv@i.ua>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nerovnia/testing/issues"
+  },
+  "homepage": "https://github.com/nerovnia/testing#readme"
+}
