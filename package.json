@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/nerovnia/testing/issues"
   },
-  "homepage": "https://github.com/nerovnia/testing#readme"
+  "homepage": "https://github.com/nerovnia/testing#readme",
+  "devDependencies": {
+    "chai": "^5.0.0"
+  }
 }
