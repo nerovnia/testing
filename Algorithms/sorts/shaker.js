@@ -1,8 +1,5 @@
 'use strict'
 
-const { getrandarr } = require("./getrandarr.js");
-const arr1 = getrandarr(100, 15, 800);
-
 const sort = (arr) => {
   const resarr = [...arr];
   let changed = true;
