@@ -16,4 +16,4 @@ const sort = (arr) => {
   return [...arr]
 }
 
-console.log(sort([...arr1]));
+module.exports = { sort };

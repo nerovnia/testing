@@ -30,4 +30,4 @@ const sort = (arr) => {
   return [...resarr]; 
 }
 
-console.log(sort(arr1));
+module.exports = { sort };

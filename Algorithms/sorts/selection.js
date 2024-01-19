@@ -30,5 +30,4 @@ const sort = (arr) => {
 
 const arr1 = getrandarr(500, 15, 800);
 
-console.log(arr1);
-console.log(sort(arr1));
+module.exports = { sort };
