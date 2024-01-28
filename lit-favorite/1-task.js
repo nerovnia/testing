@@ -10,6 +10,8 @@ var convert = function(s, numRows) {
   }
 
   const table = new Array(numRows).fill("");
+
+  console.log(table);
   let isBeginning = false;
   let ptr = 0;
 
